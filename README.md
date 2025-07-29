@@ -59,17 +59,17 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ---
 
 ### 🕒 Delay by Departure Hour
-hourly_delay.png
+[hourly_delay.png](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/hourly_delay.png)
 
 ---
 
 ### 🔥 Heatmap: Average Delay by Month & Hour
-![Heatmap](figures/delay_heatmap.png)
-
+[![Heatmap](figures/delay_heatmap.png)
+](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/avg_total_delay_heatmap.png)
 ---
 
 ### 🗺️ Delay by Origin Airport (optional)
-![Delay Map](figures/delay_by_airport.png)
+[![Delay Map](figures/delay_by_airport.png)](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/dashboard.png)
 
 ---
 
