@@ -59,7 +59,7 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ---
 
 ### 🕒 Delay by Departure Hour
-![Hour Delay](figures/delay_by_hour.png)
+hourly_delay.png
 
 ---
 
