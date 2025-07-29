@@ -54,7 +54,7 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ## 📈 EDA & Visualizations / Візуалізації
 
 ### ✈️ Average Departure Delay by Airline
-![Airline Delay](figures/delay_by_airline.png)
+[![Airline Delay](figures/delay_by_airline.png)](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/airline_delay.png)
 
 ---
 
