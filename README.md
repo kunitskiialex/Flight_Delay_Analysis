@@ -84,3 +84,46 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 
 ## 📂 Project Structure
 
+## 📊 SQL Data Preparation & Google Sheets Dashboard
+
+### SQL Data Cleaning & Analysis
+To demonstrate SQL proficiency, we used **DBeaver with PostgreSQL** to clean and analyze the raw flight dataset. The SQL script performs:
+
+- Data Type Standardization (dates, numeric fields)
+- Data Cleaning (handling NULLs, incorrect formats)
+- Feature Engineering (ROUTE, DEP_HOUR, etc.)
+- Aggregated Analytical Queries:
+  - Average delay by Airline
+  - Flight volume per Month
+  - Average delay by Departure Hour
+  - Top 10 Routes with the highest Arrival Delays
+
+📄 **SQL Script**: [/sql/flight_delay_cleaning_and_analysis.sql](./sql/flight_delay_cleaning_and_analysis.sql)
+
+### Exported Query Results:
+The results of the SQL queries were exported to CSV files and used for visualization in Google Sheets.
+
+📂 Folder: [/data/cleaned_sql_outputs/](./data/cleaned_sql_outputs/)
+
+---
+
+### Google Sheets Interactive Dashboard
+We created an interactive dashboard using **Google Sheets**, demonstrating the ability to build real-time visual analytics without BI tools.
+
+Dashboard Features:
+- Pivot Tables for Airline and Route analysis
+- Slicers (Airline, Month, Hour) controlling all charts and tables
+- KPI Summary Cards
+- Visualizations (Bar Charts, Line Charts)
+
+📊 **Live Dashboard Link**: [View Google Sheets Dashboard]((https://docs.google.com/spreadsheets/d/11krsk7PutKf4ZDu38z-Ji4iirhx49h0zEpUBD92J6e8/edit?usp=sharing))
+
+---
+
+### 🛠️ Skills Demonstrated:
+- SQL Data Cleaning & Aggregation
+- Pivot Table and KPI Creation
+- Slicer-based Dashboard Filtering
+- Data Storytelling via Google Sheets
+
+
