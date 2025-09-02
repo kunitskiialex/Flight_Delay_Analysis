@@ -51,11 +51,15 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 
 ## 📈 EDA & Visualizations / Візуалізації
 
+
 ### ✈️ Average Departure Delay by Airline
-*(chart preview here if exists)*
+[![Airline Delay](./figures/airline_delay.png)](./figures/airline_delay.png)
 
 ### 🕒 Delay by Departure Hour
-[![Hourly delay](./figures/hourly_delay.png)](./figures/hourly_delay.png)
+[![Hourly Delay](./figures/hourly_delay.png)](./figures/hourly_delay.png)
+
+### 🔥 Heatmap: Average Delay by Month & Hour
+[![Heatmap](./figures/heatmap_delay.png)](./figures/heatmap_delay.png)
 
 ### 🗺️ Delay by Origin Airport
 [![Delay Map](./figures/delay_by_airport.png)](./figures/delay_by_airport.png)
@@ -122,4 +126,5 @@ We created an interactive dashboard using **Google Sheets**, demonstrating the a
 - Pivot Table and KPI Creation  
 - Slicer-based Dashboard Filtering  
 - Data Storytelling via Google Sheets  
+
 
