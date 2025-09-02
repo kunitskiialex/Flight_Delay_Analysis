@@ -59,7 +59,7 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ---
 
 ### 🕒 Delay by Departure Hour
-[figures/hourly_delay.png](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/hourly_delay.png)
+figures/hourly_delay.png (https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/hourly_delay.png)
 
 ---
 
@@ -125,6 +125,7 @@ Dashboard Features:
 - Pivot Table and KPI Creation
 - Slicer-based Dashboard Filtering
 - Data Storytelling via Google Sheets
+
 
 
 
