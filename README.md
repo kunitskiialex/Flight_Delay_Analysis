@@ -1,5 +1,5 @@
 # ✈️ Flight Delay Analysis / Аналіз Затримок Рейсів
-[![Delay Map](./figures/delay_by_airport.png)](./dashboard.png)
+[![Delay Map](./figures/dep_delay_by_weekday.png)](./figures/dep_delay_by_weekday.png)
 
 ---
 
@@ -35,7 +35,7 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ## 🧰 Stack / Технології
 - Python (Pandas, NumPy, Matplotlib, Seaborn)  
 - Google Colab  
-- SQL (Looker Studio – optional)  
+- SQL (PostgreSQL, DBeaver, Looker Studio – optional)  
 - Tableau (optional)  
 - Google Sheets (optional)  
 
@@ -51,7 +51,6 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 
 ## 📈 EDA & Visualizations / Візуалізації
 
-
 ### ✈️ Average Departure Delay by Airline
 [![Airline Delay](./figures/airline_delay.png)](./figures/airline_delay.png)
 
@@ -59,10 +58,10 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 [![Hourly Delay](./figures/hourly_delay.png)](./figures/hourly_delay.png)
 
 ### 🔥 Heatmap: Average Delay by Month & Hour
-[![Heatmap](./figures/heatmap_delay.png)](./figures/heatmap_delay.png)
+[![Heatmap](./figures/avg_total_delay_heatmap.png)](./figures/avg_total_delay_heatmap.png)
 
-### 🗺️ Delay by Origin Airport
-[![Delay Map](./figures/delay_by_airport.png)](./figures/delay_by_airport.png)
+### 🗺️ Delay by Origin Airport (by Weekday)
+[![Delay by Weekday](./figures/dep_delay_by_weekday.png)](./figures/dep_delay_by_weekday.png)
 
 ---
 
@@ -85,9 +84,7 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ## 📊 SQL Data Preparation & Google Sheets Dashboard
 
 ### SQL Data Cleaning & Analysis
-To demonstrate SQL proficiency, we used **DBeaver with PostgreSQL** to clean and analyze the raw flight dataset.  
-
-The SQL script performs:  
+Performed in **PostgreSQL via DBeaver**:  
 - Data Type Standardization (dates, numeric fields)  
 - Data Cleaning (handling NULLs, incorrect formats)  
 - Feature Engineering (`ROUTE`, `DEP_HOUR`, etc.)  
@@ -97,7 +94,7 @@ The SQL script performs:
   - Average delay by Departure Hour  
   - Top 10 Routes with the highest Arrival Delays  
 
-📄 **SQL Script** → [flight_delay_cleaning_and_analysis.sql](./sql/flight_delay_cleaning_and_analysis.sql)  
+📄 **SQL Script** → [flight_delay_data_preparation_and_analysis.sql](./sql/flight_delay_data_preparation_and_analysis.sql)  
 
 ---
 
@@ -108,7 +105,13 @@ The results of the SQL queries were exported to CSV files and used for visualiza
 
 ---
 
-### Google Sheets Interactive Dashboard
+## 📊 Dashboards
+
+### 📊 Python Dashboard
+*(static preview — generated with Matplotlib/Seaborn)*  
+[![Python Dashboard](./figures/dashboard.png)](./figures/dashboard.png)
+
+### 📈 Google Sheets Interactive Dashboard
 We created an interactive dashboard using **Google Sheets**, demonstrating the ability to build real-time visual analytics without BI tools.  
 
 **Dashboard Features:**  
@@ -119,6 +122,8 @@ We created an interactive dashboard using **Google Sheets**, demonstrating the a
 
 📊 **Live Dashboard Link** → [View Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/11krsk7PutKf4ZDu38z-Ji4iirhx49h0zEpUBD92J6e8/edit?usp=sharing)  
 
+[![Sheets Dashboard Preview](./figures/google_sheets_dashboard_preview.png)](https://docs.google.com/spreadsheets/d/11krsk7PutKf4ZDu38z-Ji4iirhx49h0zEpUBD92J6e8/edit?usp=sharing)
+
 ---
 
 ## 🛠️ Skills Demonstrated
@@ -126,5 +131,4 @@ We created an interactive dashboard using **Google Sheets**, demonstrating the a
 - Pivot Table and KPI Creation  
 - Slicer-based Dashboard Filtering  
 - Data Storytelling via Google Sheets  
-
-
+- End-to-end Python Data Analysis & Visualization  
