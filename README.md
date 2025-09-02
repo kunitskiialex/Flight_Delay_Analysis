@@ -64,8 +64,8 @@ figures/hourly_delay.png (https://github.com/kunitskiialex/Flight_Delay_Analysis
 ---
 
 ### 🔥 Heatmap: Average Delay by Month & Hour
-[![Heatmap](figures/delay_heatmap.png)
-](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/avg_total_delay_heatmap.png)
+[![Heatmap](figures/avg_total_delay_heatmap.png)
+]([https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/avg_total_delay_heatmap.png](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/figures/avg_total_delay_heatmap.png?raw=true))
 ---
 
 ### 🗺️ Delay by Origin Airport (optional)
@@ -125,6 +125,7 @@ Dashboard Features:
 - Pivot Table and KPI Creation
 - Slicer-based Dashboard Filtering
 - Data Storytelling via Google Sheets
+
 
 
 
