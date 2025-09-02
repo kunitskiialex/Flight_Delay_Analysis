@@ -59,7 +59,7 @@ The project demonstrates data cleaning, analysis, visualization, and insights ex
 ---
 
 ### 🕒 Delay by Departure Hour
-figures/hourly_delay.png (https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/hourly_delay.png)
+[![Hourly delay] (figures/hourly_delay.png) ([https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/hourly_delay.png](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/figures/hourly_delay.png?raw=true))
 
 ---
 
@@ -68,7 +68,7 @@ figures/hourly_delay.png (https://github.com/kunitskiialex/Flight_Delay_Analysis
 ]([https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/avg_total_delay_heatmap.png](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/figures/avg_total_delay_heatmap.png?raw=true))
 ---
 
-### 🗺️ Delay by Origin Airport (optional)
+### 🗺️ Delay by Origin Airport
 [![Delay Map](figures/delay_by_airport.png)](https://github.com/kunitskiialex/Flight_Delay_Analysis/blob/main/dashboard.png)
 
 ---
@@ -125,6 +125,7 @@ Dashboard Features:
 - Pivot Table and KPI Creation
 - Slicer-based Dashboard Filtering
 - Data Storytelling via Google Sheets
+
 
 
 
